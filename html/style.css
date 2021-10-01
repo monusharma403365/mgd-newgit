@@ -1,0 +1,389 @@
+*{
+   margin: 0;
+   padding:0; 
+}
+.logobox{
+    border: 1px solid black;
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: space-around;
+   
+    
+}
+.logobox img{
+   margin-top: 10px;
+   width: 40%;
+   
+}
+.logorightbox{
+    display: flex;
+    height: 40px;
+}
+.logorightbox button{
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+    background-color: #B20000;
+    color: white;
+    font-style:bold;
+}
+.logorightbox input{
+   display:inherit;
+
+}
+.searchbox{
+    
+}
+.menubox{
+    border: 2px solid red;
+    width: 100%;
+    height: 10%;
+    display: flex;
+    border: none;
+    
+    
+}
+
+.login2 button{
+    background-color: black; 
+}
+.whitebutonbox button{
+     color: black;
+     background-color: white;
+     
+}
+.menuanderbox{
+     border: 1px solid red;
+     width: 70%;
+     height: 60px;
+     margin-left: 150px;
+     margin-top: 10px;
+     border: none;
+   
+}
+.whitebutonbox{
+    display:inline-flex;
+    justify-content:space-between;
+    font-size: 10px;
+
+    
+}
+.whitebutonbox button{
+    font-size: 15px;
+    border: none;
+}
+.home{
+    border: 2px solid red;
+    display: flex;
+    background-color: black;
+}
+.login2{
+    border: 2px solid red;
+    display: flex;
+    background-color: black;
+}
+
+.imgbox{
+    border: 2px solid gold;
+    width: 100%;
+    height: 76%;
+    border: none;
+}
+.GayatriDevi{
+    border: 2px solid red;
+    width: 100%;
+    height: 45%;
+    margin-top: 40px;
+    display:inline-flex;
+    justify-content:space-around;
+    border: none;
+
+}
+.imgbox img{
+    width: 100%;
+}
+
+.paragraphgaytridevi{
+    border: 2px solid greenyellow;
+    width: 60%;
+    height: 60%;
+    display: flex;
+    margin-top: 50px;
+    margin-left: 40px;
+    border: none;
+}
+.fotogaytridevi{
+    border: 2px solid pink;
+    width: 20%;
+    height: 30%;
+    margin-top: 50px;
+    border: none;
+    margin-right: 60px;
+    position: relative;
+    
+}
+.paragraphgaytridevi p{
+    line-height: 30px;
+    margin-left: 50px;
+    margin-top: 40px;
+   
+}
+.paragraphgaytridevi span{
+    font-style:italic;
+}
+.fotogaytridevi img{
+    width: 40%;
+    border-radius: 50%;
+    position:absolute;
+   
+   
+}
+.paragraphgaytridevi i{
+   
+    font-size: 40px;
+    position:absolute;
+    margin: 10px 10px;
+    color: grey;
+}
+.calanderbox{
+    border: 2px solid red;
+    width: 100%;
+    height: 80%;
+    margin-top: 20px;
+    background-image: url(../Asstes/img/schoolfoto.jpg);
+    display: flex;
+    justify-content: space-around;
+    border: none;
+}
+.linksbox{
+    border: 2px solid greenyellow;
+    width: 100%;
+    height: 50%;
+    margin-top: 20px;
+    border: none;
+}
+.cbox1{
+    border: 3px solid rebeccapurple;
+    width: 30%;
+    height: 90%;
+    margin-top: 30px;
+    background-color: #fae6dd ;
+    position: relative;
+    border: none;
+}
+.cbox2{
+    border: 3px solid rebeccapurple;
+    width: 30%;
+    height: 90%;
+    margin-top: 30px;
+    background-color: #fae6dd;
+    border: none;
+}
+.cbox3{
+    border: 3px solid rebeccapurple;
+    width: 30%;
+    height: 90%;
+    margin-top: 30px;
+    background-color: #fae6dd ;
+    border: none;
+}
+
+.cbox1child1{
+     border: 2px solid red;
+     width: 90%;
+     height: 30px;
+     background: white;
+    margin-left: 20px;
+     margin-top: 20px;
+     position: absolute;
+     display: flex;
+     justify-content: center;
+     border: none;
+     
+}
+.cbox1child2{
+    border: 2px solid red;
+    width: 90%;
+    height:80%;
+    background: white;
+    margin-left: 20px;
+    margin-top: 80px;
+    position: absolute;
+    border: none;
+}
+/*************************/
+.cbox2child1{
+    border: 2px solid red;
+    width: 27%;
+    height: 40px;
+    background: white;
+   margin-left: 20px;
+    margin-top: 20px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    border: none;
+    
+}
+.cbox2child2{
+   border: 2px solid red;
+   width: 27%;
+   height:57%;
+   background: white;
+   margin-left: 20px;
+   margin-top: 80px;
+   position: absolute;
+   border: none;
+}
+/**************************************/
+.cbox3child1{
+    border: 2px solid red;
+    width: 27%;
+    height: 40px;
+    background: white;
+   margin-left: 20px;
+    margin-top: 20px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    border: none;
+    
+}
+.cbox3child2{
+   border: 2px solid red;
+   width: 27%;
+   height:57%;
+   background: white;
+   margin-left: 20px;
+   margin-top: 80px;
+   position: absolute;
+   border: none;
+}
+/********************************/
+.cbox1child1 h5{
+    margin-top: 1px;
+}
+.cbox2child1 h4{
+    margin-top: 1px;
+}
+.cbox3child1 h2{
+    margin-top: 1px;
+}
+/**********************************/
+.usefullinkbox1{
+    border: 2px solid royalblue;
+    width: 99%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    margin-top: 1px;
+    border: none;
+}
+.usefullinkbox2{
+    border: 2px solid royalblue;
+    width: 100%;
+    height: 50%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    border: none;
+}
+/******************************/
+.usebox1{
+    border: 1px solid black;
+    width: 19%;
+    height: 200px;
+    text-align: center;
+    
+}
+.usebox2{
+    border: 1px solid black;
+    width: 19%;
+    height: 200px;
+    text-align: center;
+    
+}
+.usebox3{
+    border: 1px solid black;
+    width: 19%;
+    height: 200px;
+    text-align: center;
+
+}
+.usebox4{
+    border: 1px solid black;
+    width: 19%;
+    height: 200px;
+    text-align: center;
+    
+}
+/*************************/
+.usebox1child{
+    border: 2px solid gold;
+    width: 100%;
+    height: 40px;
+   align-items:inherit;
+   background-color: #f5f5f5;
+   border: none;
+}
+.usebox2child{
+    border: 2px solid gold;
+    width: 100%;
+    height: 40px;
+   align-items:inherit;
+   background-color: #f5f5f5;
+   border: none;
+}
+.usebox3child{
+    border: 2px solid gold;
+    width: 100%;
+    height: 40px;
+   align-items:inherit;
+   background-color: #f5f5f5;
+   border: none;
+}
+.usebox4child{
+    border: 2px solid gold;
+    width: 100%;
+    height: 40px;
+   align-items:inherit;
+   background-color: #f5f5f5;
+   border: none;
+}
+.contactbox{
+    border: 2px solid darkgoldenrod;
+    width: 100%;
+    height: 60%;
+    margin-top: 20px;
+    background-color: #f5f5f5c2;
+    display: flex;
+    justify-content: space-around;
+    border: none;
+}
+/***************************************/
+.contactbox1{
+    border: 2px solid rebeccapurple;
+    width: 20%;
+    height: 160px;
+    border: none;
+
+}
+.contactbox2{
+    border: 2px solid rebeccapurple;
+    width: 20%;
+    height: 260px;
+    border: none;
+
+}
+.contactbox3{
+    border: 2px solid rebeccapurple;
+    width: 20%;
+    height: 260px;
+    border: none;
+
+}
+.contactbox3 img{
+    width: 100%;
+}
